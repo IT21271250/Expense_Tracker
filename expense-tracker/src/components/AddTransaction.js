@@ -8,9 +8,9 @@ const AddTransaction = () => {
     <>
       <h3>Add New Transaction</h3>
       <form>
-        <div className = "form-control">
+      <div className='form-control'>
             <label htmlFor="text">Text</label>
-            <input type='"text' value={text} onChange={(e) => setText(e.target.value)} placeholder='Enter Text...' />
+            <input type='text' value={text} onChange={(e) => setText(e.target.value)} placeholder='Enter Text...' />
         </div>
         <div className='form-control'>
             <label htmlFor= "amount">Amount <br /> (negative - expense, positive - income)</label>
