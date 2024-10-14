@@ -1,4 +1,4 @@
-import React, {useCallback, useContext, useState} from 'react';
+import React, { useContext, useState } from 'react';
 import { GlobalContext } from '../context/GlobalState'
 
 const AddTransaction = () => {
@@ -17,6 +17,9 @@ const AddTransaction = () => {
       }
 
       addTransaction(newTransaction);
+
+      setText('');
+      setAmount('0');
     }
 
   return (
