@@ -22,4 +22,4 @@ const IncomeExp = () => {
   )
 }
 
-export default IncomeExp
+export default IncomeExp;

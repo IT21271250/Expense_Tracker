@@ -18,6 +18,7 @@ const AddTransaction = () => {
 
       addTransaction(newTransaction);
 
+      //after add clear values
       setText('');
       setAmount('0');
     }
@@ -40,4 +41,4 @@ const AddTransaction = () => {
   )
 }
 
-export default AddTransaction
+export default AddTransaction;
